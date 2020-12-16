@@ -69,7 +69,13 @@
             <a class="nav-link" href="#">Projects</a>
           </li> -->
           <li class="nav-item">
-            <a class="nav-link" href="https://github.com/jessiets?tab=repositories">GitHub</a>
+            <a class="nav-link" href="resume/Tsai_Jessie_Resume.pdf" target="_blank">Resume</a>
+          </li>
+          <li>
+            <a class="nav-link" href="https://www.linkedin.com/in/jessie-ts/" target="_blank">LinkedIn</a>
+          </li>
+          <li>
+            <a class="nav-link" href="https://github.com/jessiets?tab=repositories" target="_blank">GitHub</a>
           </li>
         </ul>
         <span class="navbar-text">
@@ -84,84 +90,102 @@
     </nav>
 
     <!-- Info Card -->
-    <div class="card text-white bg-secondary mb-3" style="max-width: 20rem;">
-      <div class="card-header">Quick Info</div>
-      <img src="images/profile.JPG" alt="profile image" width="240" height="320">
-      <div class="card-body">
-        <h4 class="card-title">Jessie Tsai</h4>
-        <p class="card-text">A sophomore computer science undergraduate looking for internships in Summer 2021.</p>
-      </div>
-    </div>
+    <div class="container">       <!-- containter to split web page into 2 columns -->
+      <div class="row">
+        <div class="col-sm-4">
+          <!-- left column -->
+          <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
+            <div class="card-header">Quick Info</div>
+            <img src="images/profile.JPG" alt="profile image" width="240" height="320">
+            <div class="card-body">
+              <h2 class="card-title">Jessie Tsai</h2>
+              <p class="card-text">A sophomore computer science undergraduate looking for internships in Summer 2021.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-8">
+          <!-- right column -->
+          <div class="card text-gray bg-dark mb-3" style="max-height: 20rem;">
+            <div class="card-header">About</div>
+            <div class="card-body">
+              <h3 class="card-title"><strong>Jessie Tsai</h3>
+              <h6 class="card-subtitle text-muted">BS Computer Science</h6>
+            </div>
+          </div>
+            <!--
+            <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
+              <rect width="100%" height="100%" fill="#868e96"></rect>
+              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
+            </svg>
+          -->
+
+          <table class="table table-hover">
+        <!-- <thead>
+          <tr>
+            <th scope="col">Type</th>
+            <th scope="col">Column heading</th>
+            <th scope="col">Column heading</th>
+            <th scope="col">Column heading</th>
+          </tr>
+        </thead> -->
+        <!-- Table -->
+            <tbody>
+              <tr class="table-dark">
+                <th scope="row">Contact</th>
+                <td>jessiets@usc.edu </td>
+              </tr>
+              <tr class="table-dark">
+                <th scope="row">Education</th>
+                <td>University of Southern California (USC) </td>
+              </tr>
+              <tr class="table-dark">
+                <th scope="row">School/Department</th>
+                <td>Viterbi School of Engineering </td>
+              </tr>
+              <tr class="table-dark">
+                <th scope="row">Expected to Graduate</th>
+                <td>May 2023 </td>
+              </tr>
+              <tr class="table-dark">
+                <th scope="row">Major</th>
+                <td>Computer Science (CSCI) </td>
+              </tr>
+              <tr class="table-dark">
+                <th scope="row">Minor</th>
+                <td>Applied Mathematics/Computational Mathematics (AMCM) </td>
+              </tr>
+            </tbody>
+          </table>
 
 
-    <div class="card mb-3">
-      <h3 class="card-header">About</h3>  
-      <div class="card-body">
-        <h3 class="card-title">Jessie Tsai</h3>
-        <h6 class="card-subtitle text-muted">BS Computer Science</h6>
-      </div>
-      <!--
-      <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
-        <rect width="100%" height="100%" fill="#868e96"></rect>
-        <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-      </svg>
-    -->
+          <div class="card-body">
+            <h6>The icons below will take you to my Resume, LinkedIn, and GitHub.<br> Feel free to check them out!</h6>
+            <br>
+              <a href="resume/Tsai_Jessie_Resume.pdf" class="card-link" target="_blank">
+                <img src="images/resume_icon.png" alt="Resume" width="40" height="40">
+              </a>
+              <a href="https://www.linkedin.com/in/jessie-ts/" class="card-link" target="_blank">
+                <img src="images/linkedin_icon.png" alt="LinkedIn" width="40" height="40">
+              </a>
+              <a href="https://github.com/jessiets" class="card-link" target="_blank">
+                <img src="images/github_icon.png" alt="GitHub" width="40" height="40">
+              </a>
+            </div>
+            <div class="card-footer text-muted">
+            </div>
+          </div>
+          <!-- <div class="card">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="card-link">Card link</a>
+              <a href="#" class="card-link">Another link</a>
+            </div>
+          </div> -->
 
-    <table class="table table-hover">
-  <!-- <thead>
-    <tr>
-      <th scope="col">Type</th>
-      <th scope="col">Column heading</th>
-      <th scope="col">Column heading</th>
-      <th scope="col">Column heading</th>
-    </tr>
-  </thead> -->
-  <!-- Table -->
-      <tbody>
-        <tr class="table-secondary">
-          <th scope="row">Contact</th>
-          <td>jessiets@usc.edu </td>
-        </tr>
-        <tr class="table-secondary">
-          <th scope="row">Education</th>
-          <td>University of Southern California (USC) </td>
-        </tr>
-        <tr class="table-secondary">
-          <th scope="row">School/Department</th>
-          <td>Viterbi School of Engineering </td>
-        </tr>
-        <tr class="table-secondary">
-          <th scope="row">Expected to Graduate</th>
-          <td>May 2023 </td>
-        </tr>
-        <tr class="table-secondary">
-          <th scope="row">Major</th>
-          <td>Computer Science (CSCI) </td>
-        </tr>
-        <tr class="table-secondary">
-          <th scope="row">Minor</th>
-          <td>Applied Mathematics/Computational Mathematics (AMCM) </td>
-        </tr>
-      </tbody>
-    </table>
-
-
-    <div class="card-body">
-        <a href="resume/Tsai_Jessie_Resume.pdf" class="card-link" target="_blank">Resume</a>
-        <a href="https://www.linkedin.com/in/jessie-ts/" class="card-link" target="_blank">LinkedIn</a>
-      </div>
-      <div class="card-footer text-muted">
-      </div>
-    </div>
-    <!-- <div class="card">
-      <div class="card-body">
-        <h4 class="card-title">Card title</h4>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
-      </div>
-    </div> -->
+        </div>
+  
 
     <!-- Optional JavaScript; choose one of the two! -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>

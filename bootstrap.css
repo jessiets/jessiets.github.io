@@ -5185,8 +5185,12 @@ a.badge-secondary:focus, a.badge-secondary.focus {
 }
 
 .badge-success {
-  color: #fff;
-  background-color: #2aa198;
+  color: #fff;  
+  /*original*/
+  /*background-color: #2aa198;*/
+  
+  /*personalized color*/
+  background-color: #258e85;
 }
 
 a.badge-success:hover, a.badge-success:focus {
