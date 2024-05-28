@@ -1,0 +1,3 @@
+Icons: https://www.flaticon.com/
+Design: https://www.figma.com/design/a4tRwHrJfxug6FXpxJ5fNs/Portfolio?node-id=0-1&t=el6w71H8HwC8qLJm-0
+Palette: https://coolors.co/9d9497-d8cdc9-eee2dc-daa48d-77685d
