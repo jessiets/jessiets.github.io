@@ -1,203 +1,55 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <title>Jessie Tsai</title>
-    <link rel="stylesheet" href="bootstrap.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section class="homesection">
+        <nav class="homesection__header">
+            <div class="homesection__header-left">
+                <a href="#">
+                    <img src="https://raw.githubusercontent.com/Laosing/cute-cat-avatars/master/assets/img/gaming.png" alt="cat"/>
+                </a>
+            </div>
+            <div class="homesection__header-right">
+                <a href="#about-section" class="homesection__header-btn">About</a>
+                <a href="#" class="homesection__header-btn">Skills</a>
+                <a href="#" class="homesection__header-btn">Experiences</a>
+                <a href="#" class="homesection__header-btn">Projects</a>
+                <a href="#" class="homesection__header-btn">Contact Me</a>
+            </div>
+        </nav>
 
-    <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous"> -->
+        <img class="homesection__shape" src="img/shape.png" alt="Irregular shaped pattern">
+        <h1 class="homesection__firstname">Jessie</h1>
+        <h1 class="homesection__lastname">Tsai</h1>
+        <img class="homesection__avatar" src="img/girl-laptop-removebg-preview.png" alt="Home Avatar">
 
-  </head>
-  <body>
-  <!--
-    <div class = "row">
-       <div class = "col-sm-6 col-md-3">
-          <a href = "#" class = "thumbnail">
-             <img src = "images/profile.JPG" alt = "Generic placeholder thumbnail">
-          </a>
-       </div>
-    <button type="button" class="btn btn-info">Info</button>
-    -->
-
-  <!--
-    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #88e0f8;">
-        <a class="navbar-brand" href="#">Jessie</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"   aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <div class="collapse navbar-collapse" id="navbarText">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Education</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="https://github.com/jessiets?tab=repositories">Projects</a>
-            </li>
-          </ul>
-          <span class="navbar-text">
-            jessiets@usc.edu
-          </span>
+        <div class="homesection__profile">
+            <div class="homesection__profile-left">
+                <p>Contact Me</p>
+                <div>
+                    <a class="homesection__profile-iconlink" href="#">
+                        <img class="homesection__profile-icons" src="img/github-icon.png" alt="Github icon">
+                    </a>
+                    <a class="homesection__profile-iconlink" href="#">
+                        <img class="homesection__profile-icons" src="img/linkedin-icon.png" alt="LinkedIn icon">
+                    </a>
+                </div>
+            </div>
+            <div class="homesection__profile-right">
+                <button>Projects</button>
+                <button>Milestones</button>
+            </div>
         </div>
-    </nav>
-    -->
+    </section>
 
-    <!-- Nav Bar -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="#">Jessie</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <section id="about_section">
+        <h1>About</h1>
+    </section>
 
-      <div class="collapse navbar-collapse" id="navbarColor02">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-          </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Education</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Projects</a>
-          </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="resume/Tsai_Jessie_Resume.pdf" target="_blank">Resume</a>
-          </li>
-          <li>
-            <a class="nav-link" href="https://www.linkedin.com/in/jessie-ts/" target="_blank">LinkedIn</a>
-          </li>
-          <li>
-            <a class="nav-link" href="https://github.com/jessiets?tab=repositories" target="_blank">GitHub</a>
-          </li>
-        </ul>
-        <span class="navbar-text">
-            jessiets@usc.edu
-        </span>
-        <!--
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search">
-          <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-        </form>   -->
-      </div>
-    </nav>
-
-    <!-- Info Card -->
-    <div class="container">       <!-- containter to split web page into 2 columns -->
-      <div class="row">
-        <div class="col-sm-4">
-          <!-- left column -->
-          <div class="card text-white bg-success mb-3" style="max-width: 20rem;">
-            <div class="card-header">Quick Info</div>
-            <img src="images/profile.JPG" alt="profile image" width="240" height="320">
-            <div class="card-body">
-              <h2 class="card-title">Jessie Tsai</h2>
-              <p class="card-text">A junior computer science major undergraduate with a management consulting minor looking for internships in Summer 2022.</p>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-8">
-          <!-- right column -->
-          <div class="card text-gray bg-dark mb-3" style="max-height: 20rem;">
-            <div class="card-header">About</div>
-            <div class="card-body">
-              <h3 class="card-title"><strong>Jessie Tsai</strong></h3>
-              <h6 class="card-subtitle text-muted">BS Computer Science</h6>
-            </div>
-          </div>
-            <!--
-            <svg xmlns="http://www.w3.org/2000/svg" class="d-block user-select-none" width="100%" height="200" aria-label="Placeholder: Image cap" focusable="false" role="img" preserveAspectRatio="xMidYMid slice" viewBox="0 0 318 180" style="font-size:1.125rem;text-anchor:middle">
-              <rect width="100%" height="100%" fill="#868e96"></rect>
-              <text x="50%" y="50%" fill="#dee2e6" dy=".3em">Image cap</text>
-            </svg>
-          -->
-
-          <table class="table table-hover">
-        <!-- <thead>
-          <tr>
-            <th scope="col">Type</th>
-            <th scope="col">Column heading</th>
-            <th scope="col">Column heading</th>
-            <th scope="col">Column heading</th>
-          </tr>
-        </thead> -->
-        <!-- Table -->
-            <tbody>
-              <tr class="table-dark">
-                <th scope="row">Contact</th>
-                <td>jessiets@usc.edu </td>
-              </tr>
-              <tr class="table-dark">
-                <th scope="row">Education</th>
-                <td>University of Southern California (USC) </td>
-              </tr>
-              <tr class="table-dark">
-                <th scope="row">School/Department</th>
-                <td>Viterbi School of Engineering & Marshall Business School</td>
-              </tr>
-              <tr class="table-dark">
-                <th scope="row">Expected to Graduate</th>
-                <td>May 2023 </td>
-              </tr>
-              <tr class="table-dark">
-                <th scope="row">Major</th>
-                <td>Computer Science (CSCI) </td>
-              </tr>
-              <tr class="table-dark">
-                <th scope="row">Minor</th>
-                <td>Management Consulting </td>
-              </tr>
-            </tbody>
-          </table>
-
-
-          <div class="card-body">
-            <h6>The icons below will take you to my Resume, LinkedIn, and GitHub.<br> Feel free to check them out!</h6>
-            <br>
-              <a href="resume/Tsai_Jessie_Resume.pdf" class="card-link" target="_blank">
-                <img src="images/resume_icon.png" alt="Resume" width="40" height="40">
-              </a>
-              <a href="https://www.linkedin.com/in/jessie-ts/" class="card-link" target="_blank">
-                <img src="images/linkedin_icon.png" alt="LinkedIn" width="40" height="40">
-              </a>
-              <a href="https://github.com/jessiets" class="card-link" target="_blank">
-                <img src="images/github_icon.png" alt="GitHub" width="40" height="40">
-              </a>
-            </div>
-            <div class="card-footer text-muted">
-            </div>
-          </div>
-          <!-- <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">Card title</h4>
-              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="card-link">Card link</a>
-              <a href="#" class="card-link">Another link</a>
-            </div>
-          </div> -->
-
-        </div>
-  
-
-    <!-- Optional JavaScript; choose one of the two! -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-
-    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
-
-    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
-    -->
-  </body>
+</body>
 </html>

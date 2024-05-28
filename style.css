@@ -1,0 +1,135 @@
+:root{
+    --navbar-size: 1.2rem;
+    --color-primary: #EEE2DC;
+    --color-secondary: #9D9497;
+    --color-highlight: #123C69;
+    --color-secondary-var: #D8CDC9;
+    --color-design: #EDC7B7;
+    --font-name: 9rem;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+body img{
+    align-self: center;
+}
+
+
+.homesection {
+    height: 100vh; /* 100% of screen's height */
+    background-color: var(--color-primary);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+}
+
+.homesection__header {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+/* nested: nav->a->img */
+nav a img {
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    width: 3rem;
+}
+
+.homesection__header-left{
+    margin-left: 2rem;
+}
+
+.homesection__header-right{
+    display: flex;
+    width: 30%;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.homesection__header-btn {
+    border: 0;
+    background-color: transparent;
+    font-size: 1rem;
+    padding: 0.3rem 0.8rem;
+    text-decoration: none;
+    color: black;
+}
+
+.homesection__header-btn:visited {
+    color: black;
+}
+
+.homesection__header-btn:hover { 
+    color: var(--color-design);
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.homesection__header-btn:last-child {
+    background-color: var(--color-highlight);
+    color: white;
+    border-radius: 10px;
+}
+
+.homesection__firstname {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    font-size: var(--font-name);
+}
+
+.homesection__lastname {
+    position: absolute;
+    top: 25%;
+    right: 20%;
+    font-size: var(--font-name);
+}
+
+.homesection__avatar {
+    position: absolute; /* Take img out of the flow (doesn't count as an element) to allow overlapping */
+    bottom: 0;
+    height: 85vh;
+}
+
+.homesection__shape {
+    position: absolute;
+    top: 5%;
+    width: 60%;
+    height: 105%;
+}
+
+.homesection__profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.homesection__profile-left {
+
+}
+
+.homesection__profile-iconlink {
+    text-decoration: none;
+}
+
+.homesection__profile-icons {
+    width: 5%;
+    margin: 0.5rem;
+}
+
+.homesection__profile-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
